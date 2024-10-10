@@ -5,13 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-
-class Project extends Model
+class Proposal extends Model
 {
     use HasFactory;
-
-    protected $casts = [
-        'tech_stack' => 'array',
-    ];
 }
-
